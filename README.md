@@ -26,16 +26,28 @@ The easiest way is to use the [Yeoman generator](https://github.com/marcofugaro/
 
 <img src="screenshots/demo.gif" width="600">
 
-Alternatively, run:
+Alternatively, click the [Use this template](https://github.com/marcofugaro/browser-modern-extension-boilerplate/generate) button here on github, it will create a repo containing these files.
 
-```
-curl -fsSL https://github.com/marcofugaro/browser-modern-extension-boilerplate/archive/master.tar.gz | tar -xz --strip-components=2 browser-modern-extension-boilerplate-master/boilerplate
-```
-
-Otherwise you can `git clone` or [download](https://github.com/marcofugaro/browser-modern-extension-boilerplate/archive/master.zip) this repo and get the contents of the `boilerplate` folder.
+Otherwise you can just `git clone` or [download](https://github.com/marcofugaro/browser-modern-extension-boilerplate/archive/master.zip) this repo and get the contents of the `boilerplate` folder.
 
 After you downloaded the files, create the .env file by running `cp .env.example .env`. Then replace all the occurrences of `<%= title %>`, `<%= kebabTitle %>` and so on.
 
-## License
+## Install
 
-MIT © [Marco Fugaro](https://github.com/marcofugaro)
+#### [Chrome extension]()
+#### [Firefox add-on]()
+
+## Development
+
+- `yarn start` to compile and watch the files for changes.
+
+  To enable the autoreload on chrome:
+
+  1. Go to `chrome://extensions/`
+  1. Make sure **Developer mode** is on
+  1. Click **Load unpacked** and choose the **build/** folder
+
+  Instead, if you want to develop on firefox, check out [web-ext](https://github.com/mozilla/web-ext).
+
+- `yarn build` to just compile the files.
+- `yarn bundle` to compile the files and put them in a `.zip`, ready to be published.
