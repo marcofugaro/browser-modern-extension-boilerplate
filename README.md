@@ -14,17 +14,17 @@ The development mode has **autoreload** of the chrome extension, meaning that wh
 
 It comes with the [webextension-polyfill](https://github.com/mozilla/webextension-polyfill), which basically lets you write **async/await code** instead of the callback hell of the chrome extension apis. 💣
 
-<img src="screenshots/start.png" width="700">
+<img src=".github/screenshots/start.png" width="700">
 
 It also bundles your extension when you're done, ready to be pusblished to the extension store!
 
-<img src="screenshots/bundle.png" width="700">
+<img src=".github/screenshots/bundle.png" width="700">
 
 ## Getting started
 
 The easiest way is to use the [Yeoman generator](https://github.com/marcofugaro/generator-browser-modern-extension), you get to configure more stuff that way, here is a demo:
 
-<img src="screenshots/demo.gif" width="600">
+<img src=".github/screenshots/demo.gif" width="600">
 
 Alternatively, click the [Use this template](https://github.com/marcofugaro/browser-modern-extension-boilerplate/generate) button here on github, it will create a repo containing these files.
 
